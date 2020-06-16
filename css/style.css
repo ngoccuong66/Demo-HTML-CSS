@@ -1,0 +1,234 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+a {
+    text-decoration: none;
+    color: black;
+
+}
+p {
+    font-size: 18px;
+}
+a:hover {
+    color: #818735;
+   
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* menu */
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu{
+    margin-top:30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu img {
+    margin: 0px 15px -20px;
+}
+.menu img:hover{
+    opacity: 0.5;
+}
+
+.slider {
+    
+    
+    position: relative;
+}
+.slider .left{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+    
+}
+.slider .left h2 {
+    font-size: 80px;
+    color: #696969;
+}
+
+/* banner */
+.banner {
+    margin-top: 20px;
+}
+.banner-left {
+    width: 680px;
+    height: 600px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('../images/banner_3.jpg');
+    background-size:cover ;
+    position: relative;
+}
+.banner-right {
+    width: 500px;
+    height: 700px;
+    float: left;
+    background-image: url('../images/banner_4.jpg');
+    background-size:cover ;
+    position: relative;
+}
+.banner-left .text1 {
+    position: absolute;
+    left: 440px;
+    bottom: 75px;
+    font-size: 50px;
+    color: #696969;
+}
+.banner-left .view1 {
+    position: absolute;
+    left: 440px;
+    bottom: 50px;
+    color: #696969;
+}
+.banner-right .text2 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 50px;
+    color: #696969;
+}
+.banner-right .view2 {
+    top: 360px;
+    position: absolute;
+    left: 25px;
+    color: #696969;
+    
+}
+#title {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.sanpham, .ten, .gia, .btn {
+    width: 285px;
+    margin-left: 20px;
+    float: left;
+    
+}
+.sanpham:first-child, .ten:first-child, .gia:first-child , .btn:first-child {
+    margin-left: 0;
+}
+.sanpham {
+    overflow: hidden;
+}
+.sanpham img {
+    transform: scale(1.5);
+}
+.sanpham img:hover {
+    transform: scale(1.0);
+}
+.ten p{
+    text-align: center;
+    color: #696969;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.gia {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:  #696969;
+}
+.gia span{
+    font-size: 15px;
+}
+
+.btn {
+    height: 40px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-bottom: 20px;
+   
+}
+.btn:hover {
+    background-color: bisque;
+    opacity: 0.5;
+}
+.banner-left2 {
+    width: 680px;
+    height: 600px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('../images/banner_1.jpg');
+    background-size:cover ;
+    position: relative;
+}
+.banner-right2 {
+    width: 500px;
+    height: 700px;
+   
+    float: left;
+    background-image: url('../images/banner_2.jpg');
+    background-size:cover ;
+    position: relative;
+}
+.banner-left2 .text3 {
+    position: absolute;
+    left: 100px;
+    bottom: 75px;
+    font-size: 50px;
+    color: #696969;
+}
+.banner-left2 .view3 {
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    color: #696969;
+}
+
+.banner-right2 .text4 {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    font-size: 50px;
+    color: #696969;
+}
+.banner-right2 .view4{
+    top: 215px;
+    position: absolute;
+    left: 210px;
+    color: #696969;
+    
+}
+
+.about{
+    width: 400px;
+    float: left;
+    
+}
+.about .trai {
+    width: 70px;
+    height: 32px;
+    margin-right: 20px;
+    float: left;
+}
+.about .phai {
+    width: 305px;
+    float: right;
+}
+.contact {
+    width: 300px;
+    float: left;
+}
+.contact span{
+    text-decoration: underline;
+    color: blue;
+}
+.contact span:hover{
+    color: #818735;
+}
+
+.link {
+    width: 500px;
+    float: left;
+    margin-top: 27px;
+    color: blue;
+}
